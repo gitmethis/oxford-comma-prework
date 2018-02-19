@@ -5,7 +5,7 @@ def oxford_comma(array)
      
      if array[word] == array[-1]
         str += 'and' + word
-        next
+        break
      end
    
      str += word + ', '
