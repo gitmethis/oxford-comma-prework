@@ -4,7 +4,7 @@ def oxford_comma(array)
    array.each{ |word|
      
      if word == array[-1]
-        str += 'and' + word
+        str += 'and ' + word
         break
      end
    
